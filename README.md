@@ -45,5 +45,7 @@ Other features like the number of bathrooms and grade also had significant impac
 The model performance was as follows:
 
 MAE: 448749.8980515179 (average error in predicting house prices)
+
 MSE:452914712798.46497 (measure of average squared difference between actual and predicted values)
+
 R² Score: 0.09256855509161599 (indicating how well the model explains variance in house prices).
