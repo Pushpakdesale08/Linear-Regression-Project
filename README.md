@@ -5,18 +5,31 @@ This project applies linear regression to analyze the King County House Sales da
 
 # Dataset-
 The dataset contains house sale prices for King County, which includes Seattle. It has over 20,000 records and includes features such as:
+
 price: The price of the house (target variable)
+
 bedrooms: Number of bedrooms
+
 bathrooms: Number of bathrooms
+
 sqft_living: Square footage of the house's interior
+
 sqft_lot: Square footage of the lot
+
 floors: Number of floors
+
 waterfront: Whether the house is by a waterfront
+
 view: Quality of the house’s view
+
 condition: Overall condition rating of the house
+
 grade: Construction grade of the house
+
 yr_built: Year the house was built
+
 zipcode: Location of the house
+
 Data Source
 The dataset was provided by the King County, USA and is publicly available for use in predictive modeling and analysis.
 
@@ -29,11 +42,14 @@ The primary objective of this project is to build a linear regression model that
 Data Preprocessing: Handling missing values
 Outlier detection and treatment
 Feature engineering (e.g., transforming categorical variables, feature scaling)
+
 Exploratory Data Analysis (EDA): Visualizing relationships between the features and target variable (price)
 Correlation analysis between numeric features
+
 Model Building: Implementing linear regression using scikit-learn
 Splitting the dataset into training and testing sets
 Training the model on the training data and evaluating performance on test data
+
 Model Evaluation: Metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squared (R²) were used to evaluate the model's performance.
 Visualizations like residual plots were used to inspect the model’s fit and identify potential areas for improvement.
 
