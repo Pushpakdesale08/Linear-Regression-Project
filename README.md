@@ -1,9 +1,9 @@
-#ML_Linear-Regression-Project
+# ML_Linear-Regression-Project
 
-Overview-
+# Overview-
 This project applies linear regression to analyze the King County House Sales dataset. The primary goal is to predict house prices based on various features such as square footage, number of bedrooms, bathrooms, and other characteristics of the homes. By utilizing linear regression, we aim to understand the relationship between these features and the price of the house, and build a model that can accurately estimate house prices.
 
-Dataset-
+# Dataset-
 The dataset contains house sale prices for King County, which includes Seattle. It has over 20,000 records and includes features such as:
 price: The price of the house (target variable)
 bedrooms: Number of bedrooms
@@ -20,12 +20,12 @@ zipcode: Location of the house
 Data Source
 The dataset was provided by the King County, USA and is publicly available for use in predictive modeling and analysis.
 
-Linear Regression
+# Linear Regression
 
-Objective-
+# Objective-
 The primary objective of this project is to build a linear regression model that predicts the price of a house based on the available features. Linear regression helps in determining the weight (coefficient) each feature contributes towards predicting the target variable (house price).
 
-Methodology-
+# Methodology-
 Data Preprocessing: Handling missing values
 Outlier detection and treatment
 Feature engineering (e.g., transforming categorical variables, feature scaling)
@@ -37,7 +37,7 @@ Training the model on the training data and evaluating performance on test data
 Model Evaluation: Metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squared (R²) were used to evaluate the model's performance.
 Visualizations like residual plots were used to inspect the model’s fit and identify potential areas for improvement.
 
-Results-
+# Results-
 The linear regression model was able to capture the general trends in the data and provided a reasonable prediction of house prices. Key insights include:
 
 sqft_living showed a strong positive correlation with the price, indicating that larger homes tend to be priced higher.
